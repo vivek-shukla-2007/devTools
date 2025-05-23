@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <div>
+    <div className="home">
       <h1>DevTools</h1>
       <nav>
         <a href="/json-formatter">JSON Formatter</a>
