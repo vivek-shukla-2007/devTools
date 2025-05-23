@@ -1,8 +1,9 @@
-import { Routes, Route } from 'react-router-dom';
 import HomePage from './features/home/HomePage';
 import JsonFormatter from './features/json-formatter/JsonFormatter';
 import CronGenerator from './features/cron-generator/CronGenerator';
 import Base64Tool from './features/base64/Base64Tool';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './features/home/HomePage';
 
 function App() {
   return (
